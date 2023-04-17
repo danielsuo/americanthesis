@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr"><!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<base href="/publications/nonlinear-finite-element-method-electrostrictive-ceramic-multilayer-actuators%E2%80%93" />
+<link rel="shortcut icon" href="https://suo.seas.harvard.edu/profiles/openscholar/themes/hwpi_basetheme/favicon.png" />
+<meta name="generator" content="OpenScholar for Drupal 7 (http://theopenscholar.org)" />
+<link rel="canonical" href="https://suo.seas.harvard.edu/publications/nonlinear-finite-element-method-electrostrictive-ceramic-multilayer-actuators%E2%80%93" />
+<link rel="shortlink" href="https://suo.seas.harvard.edu/node/422956" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="A nonlinear finite element method for electrostrictive ceramic multilayer actuators–a comparison of capacitor-type and slit structures" />
+<meta property="og:description" content="64, X. Gong, and Z. Suo. 1996. “A nonlinear finite element method for electrostrictive ceramic multilayer actuators–a comparison of capacitor-type and slit structures.” US-Japan Workshop on Smart Materials and Structures. Proceedings of the First US-Japan Workshop." />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="A nonlinear finite element method for electrostrictive ceramic multilayer actuators–a comparison of capacitor-type and slit structures" />
+<meta name="twitter:image" content="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/suo/files/seaslogo_rgb-3.png?m=1466111382" />
+<title>A nonlinear finite element method for electrostrictive ceramic multilayer actuators–a comparison of capacitor-type and slit structures | Suo Group</title>
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link type="text/css" rel="stylesheet" href="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css?m=1678949270" media="all" />
+<link type="text/css" rel="stylesheet" href="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/css/css_1kR8T1_c-l5pBT6ZwbDT7BFda-4fyqW9Jjum29_2IY8.css?m=1678949984" media="all" />
+<link type="text/css" rel="stylesheet" href="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/css/css_YnlUIvHP13qgpYEqubzE8JyDwlSxUnVibfnVkSoSDb0.css?m=1678949270" media="all" />
+<link type="text/css" rel="stylesheet" href="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/css/css_XDzLYqHtto4mMXkEVfvIw4UwCnBw50iIbF5fDoTqIjA.css?m=1679321081" media="all" />
+<link type="text/css" rel="stylesheet" href="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/css/css_cezFECrq5MsWxkMcRmhaFDagf2XnicD396RotTLey5k.css?m=1676902394" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/css/css_dW-aNNrctRhQNc-KECjtQd0PxuW-h19IEum-TX2MeEk.css?m=1678949935" media="print" />
+<link type="text/css" rel="stylesheet" href="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/css/css_SH2Lx3Qprh0GZo_9xRp85U9NsWfkSXn_Bi-rJoMY1sw.css?m=1678949935" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/css/css_uaIDKcYMUK5osSQXuirpr3ZleXtnnpBN-eiECm7N0M0.css?m=1678949270" media="all" />
+<link type="text/css" rel="stylesheet" href="https://suo.seas.harvard.edu/profiles/openscholar/themes/hwpi_onepage/flavors/winthrop/winthrop.css?rsowaf" media="all" />
+<link type="text/css" rel="stylesheet" href="https://suo.seas.harvard.edu/profiles/openscholar/themes/hwpi_onepage/flavors/winthrop/responsive.winthrop.css?rsowaf" media="all" />
+  <!--[if lte IE 8]>
+<script type="text/javascript">
+  var os_c = document.createElement;os_c('header');os_c('nav');os_c('section');os_c('article');os_c('aside');os_c('footer');os_c('hgroup');os_c('figure');
+</script>
+  <![endif]-->
+
+                              <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="GBUU5-S9S78-P7UW2-BSS9F-LR483",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"GBUU5-S9S78-P7UW2-BSS9F-LR483";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="nccgwxyx3ygdezb5nsla-f-7e970906d-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"34","ak.cp":"1451211","ak.ai":parseInt("841065",10),"ak.ol":"0","ak.cr":44,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"a3a2bdbd","ak.r":40197,"ak.a2":n,"ak.m":"b","ak.n":"ff","ak.bpcip":"104.132.107.0","ak.cport":1697,"ak.gh":"23.222.12.46","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1681747094","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==rdLr42doKgIVoKlaFRLbgkbRVQPdDk6sGWjKiMLnYOhw/RiMa76CGrETOB+xUo3CroIO+8+vnLIFKKL6K7EdtnK2ZnHn9pFz8m4+p6aGUjt7iKNefhH+NRKRla4l8gJqPEiJ3+tt2djs1HqNFaG63V/8h1wcp4PyLSO5AefzE+89dCb0Wbtg3+nfVK+LYfIpOEs/Q9YzXG5QgHh4n+GpNs0ktuYjKdYdk82DhHNiRzg1Do13wzqqlGu0jbJKZA9TN26sJoP9vQvVLhvQeI8CeWyDx/kcJdfAk4DHcnGwnN1Jpz7nMqyDWlzEfnw0Ww/ngACyfc38JpzXP4oSn5YMuptCcuW26/bS7ELxQBCRMnGZGq1YsRMNo+EMcn9diiJtORSkVG9vLwwohxb6vKnv9EMdZb/wdrUE3VIz+Ipb3+w=","ak.pv":"37","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-422956 node-type-biblio og-context og-context-node og-context-node-409136 navbar-on" ng-app="openscholar">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable" tabindex="1">Skip to main content</a>
+  </div>
+    <div id="page_wrap" class="page_wrap">
+<!--REGION TO HOUSE RESPONSIVE MENU. OTHER CONTENT CAN'T BE PLACED HERE-->
+<div class="responive-menu-container clearfix">
+  <ul class="mobile-buttons num-links-3"><li class="link-count-mobi-main first"><a href="#"  data-target="#block-os-primary-menu"><span aria-hidden="true" class="icon-menu"></span><span class="move">Main Menu</span></a></li><li class="link-count-mobi-util"><a href="#"  data-target="#block-os-quick-links, #block-os-secondary-menu, #header .os-custom-menu"><span aria-hidden="true" class="icon-plus"></span><span class="move">Utility Menu</span></a></li><li class="link-count-mobi-search last"><a href="#"  data-target="#block-os-search-db-site-search, #block-boxes-solr-search-box"><span aria-hidden="true" class="icon-search3"></span><span class="move">Search</span></a></li></ul></div>
+
+<!--FLEXIBLE ADMIN HEADER FOR USE BY SELECT GROUPS USING OS-->
+	<div id="branding_header">
+		<div  class="branding-container clearfix">
+		  <div class="branding-left"><a href="http://www.harvard.edu/" ><img src="https://suo.seas.harvard.edu/profiles/openscholar/themes/hwpi_basetheme/images/harvard-logo.png" width="235" height="32" alt="University Logo" /></a></div><div class="branding-right"><a href="http://www.harvard.edu/" >HARVARD.EDU</a></div>		</div>
+	</div>
+
+<div id="page" class="container page header-main header-right content-none footer-left">
+	<div id="page-wrapper">
+
+		
+					<!--header regions beg-->
+			<header id="header" class="clearfix" role="banner">
+			 <div id="header-container">
+				 <div id="header-panels" class="at-panel gpanel panel-display three-col clearfix">
+					  					  <div class="region region-header-second"><div class="region-inner clearfix"><div id="block-boxes-1466112416" class="block block-boxes block-boxes-os_boxes_media no-title"  module="boxes" delta="1466112416"><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div id='boxes-box-1466112416' class='boxes-box'><div class="boxes-box-content"><div id="file-479871" class="file file-image file-image-png">
+
+          <h2 class="element-invisible"><a href="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/suo/files/group_title.png?m=1466112516">group_title.png</a></h2>
+      
+  
+  <div class="content">
+    <img class="image-style-os-files-xxlarge" src="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/styles/os_files_xxlarge/public/suo/files/group_title.png?m=1499734955&amp;itok=oQt7Juhm" width="2000" height="540.19968470836" alt="" title="" />  </div>
+
+  
+</div>
+</div></div></div>
+  </div></div></div></div>					  					  <div class="region region-header-third"><div class="region-inner clearfix"><div id="block-boxes-site-logo" class="block block-boxes block-boxes-os_boxes_site_logo no-title"  module="boxes" delta="site_logo"><div class="block-inner clearfix">  
+  
+  <div class="block-content content" ng-non-bindable=""><div id='boxes-box-site_logo' class='boxes-box'><div class="boxes-box-content"><a href="https://suo.seas.harvard.edu/" ><img src="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/suo/files/seaslogo_rgb-3.png?m=1466111382" width="482" height="194" alt="Suo Group" /></a></div></div></div>
+  </div></div></div></div>					  				 </div>
+			  </div>
+		  </header>
+      <!--header regions end-->
+		
+				  <!--main menu region beg-->
+		  <div id="menu-bar" class="nav region-menu-bar clearfix"><nav id="block-os-primary-menu" class="block block-os no-title menu-wrapper menu-bar-wrapper clearfix"  module="os" delta="primary-menu">  
+  
+  <ul class="nice-menu nice-menu-down nice-menu-primary-menu" id="nice-menu-primary-menu"><li class="menu-24354 menu-path-node-409191  first   odd  "><a href="https://suo.seas.harvard.edu/research-1"  title="">Research</a></li><li class="menu-31766 menu-path-node-450871   even  "><a href="https://suo.seas.harvard.edu/suo-publications" >Publications</a></li><li class="menu-2616 menuparent  menu-path-people   odd  "><a href="https://suo.seas.harvard.edu/people"  title="List of people">People</a><span class="open-submenu"></span><ul><li class="menu-25272 menu-path-node-417026  first   odd   last "><a href="https://suo.seas.harvard.edu/people/zhigang-suo"  title="">Prof. Z. Suo</a></li></ul></li><li class="menu-2531 menu-path-classes   even  "><a href="https://suo.seas.harvard.edu/classes"  title="">Teaching</a></li><li class="menu-24370 menu-path-node-409316   odd  "><a href="https://suo.seas.harvard.edu/reviews"  title="">Reviews</a></li><li class="menu-24365 menu-path-node-409296   even  "><a href="https://suo.seas.harvard.edu/contact"  title="">Contact</a></li><li class="menu-44962 menu-path-suoseasharvardedu-album   odd   last "><a href="http://suo.seas.harvard.edu/album" >Album</a></li></ul>
+
+  </nav></div>		  <!--main menu region end-->
+		
+    
+		<div id="columns" class="clearfix">
+			<div class="hg-container">
+				<div id="content-column" role="main">
+					<div class="content-inner">
+					  <div class="breadcrumb"><a href="https://suo.seas.harvard.edu/" >HOME</a> <span>&#47;</span> <a href="https://suo.seas.harvard.edu/publications" >PUBLICATIONS</a> <span>&#47;</span> </div>
+						
+													<section id="main-content">
+								<a name="main-content"></a>
+																									<header id="main-content-header">
+																					<h1 id="page-title" ng-non-bindable="">
+												A nonlinear finite element method for electrostrictive ceramic multilayer actuators–a comparison of capacitor-type and slit structures											</h1>
+																													</header>
+																
+																	<div id="content">
+										<article id="node-422956" class="node node-biblio article clearfix" role="article">
+  
+  
+  
+  <div class="node-content" ng-non-bindable="">
+    <div id="biblio-node"><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.atitle=A+nonlinear+finite+element+method+for+electrostrictive+ceramic+multilayer+actuators%E2%80%93a+comparison+of+capacitor-type+and+slit+structures&amp;rft.title=US-Japan+Workshop+on+Smart+Materials+and+Structures.+Proceedings+of+the+First+US-Japan+Workshop&amp;rft.date=1996&amp;rft.aulast=64&amp;rft.au=Gong%2C+X.&amp;rft.au=Suo%2C+Z.&amp;rft.au=Suo%2C+Z."></span><div id="citation-wrapper"><h3>Citation:</h3><div class="biblio-citation" onclick="if (event.target) { selectText(event.target); } else{ selectText(this);} "> 64, X.  Gong, and Z.  Suo. 1996. “<a href="https://suo.seas.harvard.edu/publications/nonlinear-finite-element-method-electrostrictive-ceramic-multilayer-actuators%E2%80%93" class="active">A nonlinear finite element method for electrostrictive ceramic multilayer actuators–a comparison of capacitor-type and slit structures</a>.” US-Japan Workshop on Smart Materials and Structures. Proceedings of the First US-Japan Workshop.</div><div class="ctools-dropdown-no-js ctools-dropdown" id="ctools-dropdown-1"><div class="ctools-dropdown-link-wrapper"><a href="#" class="ctools-dropdown-link ctools-dropdown-text-link">Download Citation</a></div><div class="ctools-dropdown-container-wrapper"><div class="ctools-dropdown-container"><ul><li class="biblio_bibtex first"><a href="https://suo.seas.harvard.edu/publications/export/bibtex/422956"  title="Click to download the BibTEX formatted file">BibTex</a></li>
+<li class="biblio_tagged"><a href="https://suo.seas.harvard.edu/publications/export/tagged/422956"  title="Click to download the EndNote Tagged formatted file">Tagged</a></li>
+<li class="biblio_xml last"><a href="https://suo.seas.harvard.edu/publications/export/xml/422956"  title="Click to download the EndNote XML formatted file">XML</a></li>
+</ul></div></div></div></div><div id="pub-cover-content-wrapper"><div class="pubcontent-wrapper"><h3>Abstract:</h3><p>(Seattle, WA, USA, 3-4 Dec. 1995.) edited by: Inoue, K.;    Shen, S. I. Y.; Taya, M. Warrendale, PA, USA: TMS, 1996. P. 169-79.</p></div></div></div><div class="field field-name-og-vocabulary field-type-entityreference field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even">See also: <a href="https://suo.seas.harvard.edu/publications/publication-sorting-year/1996" >1996</a></div></div></div><i>Last updated on 10/12/2016</i>  </div>
+
+  
+  
+  </article>
+									</div>
+								
+							</section><!--main content ends-->
+											</div>
+				</div>
+
+				
+				
+			</div>
+		</div>
+		<!--footer region beg-->
+		<footer id="footer" class="clearfix" role="contentinfo">
+		<!-- Three column 3x33 Gpanel -->
+		
+			<div class="at-panel gpanel panel-display footer clearfix">
+								<div class="region region-footer-first"><div class="region-inner clearfix"><div id="block-boxes-1468780501" class="block block-boxes block-boxes-os_boxes_media no-title"  module="boxes" delta="1468780501"><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div id='boxes-box-1468780501' class='boxes-box'><div class="boxes-box-content"><div id="file-502201" class="file file-html file-html-embed">
+
+          <h2 class="element-invisible"><a href="">7247be62e2edd9c9f699f9400d06cd3f</a></h2>
+      
+  
+  <div class="content">
+    <div class="file-info"></div><div class="field field-name-field-html-code field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><a href="//kavli.seas.harvard.edu/"><img src="/files/suo/files/kavli_logo_white.png"></a></div></div></div>  </div>
+
+  
+</div>
+</div></div></div>
+  </div></div></div></div>												<div class="region region-footer-bottom"><div class="region-inner clearfix"><div id="block-boxes-1471447759" class="block block-boxes block-boxes-os_boxes_media no-title"  module="boxes" delta="1471447759"><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div id='boxes-box-1471447759' class='boxes-box'><div class="boxes-box-content"><div id="file-502191" class="file file-html file-html-embed">
+
+          <h2 class="element-invisible"><a href="">b345191529cf0203dcc2d7a6b42a5a18</a></h2>
+      
+  
+  <div class="content">
+    <div class="file-info"></div><div class="field field-name-field-html-code field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+var changeLinks = function () {
+var links = $('div.biblio-citation a')
+if (!links.length){
+	links = $('div.biblio-entry a');
+}
+links.each(function(i, e){
+	if ($(e).attr('href').endsWith('.pdf')){
+		$(e).html('<img class="file-icon" alt="" title="application/pdf" src="/modules/file/icons/application-pdf.png">[pdf]');
+	}
+})
+}
+changeLinks();
+var observer = new MutationObserver(changeLinks);
+
+observer.observe(document.getElementById('content'), {childList:true});
+</script></div></div></div>  </div>
+
+  
+</div>
+</div></div></div>
+  </div></div><div id="block-boxes-1475159782" class="block block-boxes block-boxes-os_boxes_media no-title"  module="boxes" delta="1475159782"><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div id='boxes-box-1475159782' class='boxes-box'><div class="boxes-box-content"><div id="file-514396" class="file file-html file-html-embed">
+
+          <h2 class="element-invisible"><a href="">f66a751eb10ff1d3bac2881328d91065</a></h2>
+      
+  
+  <div class="content">
+    <div class="file-info"></div><div class="field field-name-field-html-code field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><script>
+$('div.breadcrumb a').each(function(i, e){
+e = $(e);
+if (e.text() == 'PUBLICATIONS') {
+e.attr('href', '/suo/suo-publications/');
+}
+});
+</script></div></div></div>  </div>
+
+  
+</div>
+</div></div></div>
+  </div></div></div></div>			</div>
+
+		<!--footer region end-->
+    <div id="powerby-login">
+  	<a href="/user?destination=publications/nonlinear-finite-element-method-electrostrictive-ceramic-multilayer-actuators%E2%80%93%3Fadmin_panel%3D1%26login%3D1"  class="footer-login">Admin Login</a>  </div>
+  </footer>
+  </div>
+</div><!--page area ends-->
+
+<div id="extradiv"></div>
+
+  <!--FLEXIBLE ADMIN FOOTER FOR USE BY SELECT GROUPS USING OS-->
+  <div id="branding_footer">
+		<div class="branding-container">
+	    <div class="copyright"><span class="harvard-copyright">Copyright &copy; 2023 The President and Fellows of Harvard College</span>  | <a href="https://accessibility.harvard.edu/" >Accessibility</a> | <a href="https://accessibility.huit.harvard.edu/digital-accessibility-policy" >Digital Accessibility</a> | <a href="https://www.harvard.edu/copyright-issue/" >Report Copyright Infringement</a></div>		</div>
+  </div>
+
+</div><!-- /page_wrap -->
+
+  <script src="https://suo.seas.harvard.edu/profiles/openscholar/libraries/respondjs/respond.min.js?rsowaf"></script>
+<script src="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/js/js_s7yA-hwRxnKty__ED6DuqmTMKG39xvpRyrtyCrbWH4M.js?m=1678949934"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"hwpi_onepage","theme_token":"Aau1-iPzegg7iG8cRRu8EIL3lgr85G53r9tyRbXFUqU"},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"https:\/\/suo.seas.harvard.edu\/jcarousel\/ajax\/views"},"widget_max_width":{"boxes-box-1468780501":"500","boxes-box-1466112416":"2000"},"spaces":{"id":"409136","path":"Suo Group"},"os_ga":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|docx?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xlsx?|xml|z|zip","trackNavigation":1},"paths":{"api":"\/api","siteCreationForm":"\/profiles\/openscholar\/modules\/frontend\/os_site_creation\/templates","siteCreationModuleRoot":"\/profiles\/openscholar\/modules\/frontend\/os_site_creation","hasOsId":false},"user":{"uid":0,"name":null},"admin_panel":{"purl_base_domain":"http:\/\/scholar.harvard.edu","base_domain":"https:\/\/suo.seas.harvard.edu"},"version":{"siteCreationForm":"1.0.4"},"site_creation":{"subsite_types":[],"privacy_levels":{"0":"Public on the web. \u003Cbr\u003E\u003Cspan class=\u0022description\u0022\u003EAnyone on the Internet can view your site. Your site will show in search results. No sign-in required.\u003C\/span\u003E","2":"Anyone with the link. \u003Cbr\u003E\u003Cspan class=\u0022description\u0022\u003EAnyone who has the URL to your site can view your site. Your site will not be indexed by search engines.\u003C\/span\u003E","1":"Site members only. \u003Cbr\u003E\u003Cspan class=\u0022description\u0022\u003EThis setting can be useful during site creation. Your site will not be indexed by search engines.\u003C\/span\u003E","4":"Harvard Community\u003Cbr\u003E\u003Cspan class=\u0027description\u0027\u003EOnly the Harvard community can access your site. Sign-in via HarvardKey required.\u003C\/span\u003E"},"tos_label":"OpenScholar Terms of Use","tos_url":"https:\/\/hwp.harvard.edu\/terms-use","presets":{"os_department_minimal":{"name":"os_department_minimal","title":"Minimal","description":"Blank site with no pre-set menu links or pages.","site_type":"department"},"os_project":{"name":"os_project","title":"Minimal","description":"Blank site with no pre-set menu links or pages.","site_type":"project"},"os_scholar":{"name":"os_scholar","title":"Minimal","description":"Blank site with no pre-set menu links or pages.","site_type":"personal"},"hwp_personal":{"name":"hwp_personal","title":"Personal","description":"The Harvard Web Publishing standard Personal site.","site_type":"personal"}},"default_individual_scholar":"os_scholar","default_project_lab_small_group":"os_project","default_department_school":"os_department_minimal"},"urlIsAjaxTrusted":{"https:\/\/suo.seas.harvard.edu\/search\/site":true},"nice_menus_options":{"delay":800,"speed":"slow"},"ogContext":{"groupType":"node","gid":"409136"},"password":{"strengthTitle":"Password compliance:"},"type":"setting"});</script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular-sanitize.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular-cookies.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.9/ngStorage.min.js"></script>
+<script src="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/js/js_0NmK99JLIjRqsIlFqFNNbx8Ujgexpza5nVIcHEw_ZTg.js?m=1678953022"></script>
+<script src="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/js/js_Y1FBKf83E3J9MQtFPjbc5aPABrOfDhLHCFnDQJdtDSk.js?m=1678953022"></script>
+<script>function selectText(ele) {
+  try {
+    var div = document.createRange();
+    div.setStartBefore(ele);
+    div.setEndAfter(ele) ;
+    window.getSelection().addRange(div);
+  }
+  catch (e) {
+    // we're in internet explorer
+    div = document.selection.createRange();
+    div.moveToElementText(ele);
+    div.select();
+  }
+}</script>
+<script src="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/js/js_GO54BYmuBId90TKegHP21U4pPwV6wD-QgWoujd9tgXw.js?m=1679059453"></script>
+<script>window.CKEDITOR_BASEPATH = '/profiles/openscholar/libraries/ckeditor/'</script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-17689007-1"]);_gaq.push(["_gat._anonymizeIp"]);_gaq.push(["_trackPageview"]);_gaq.push(['_setCustomVar',1,'Site homepage','https://suo.seas.harvard.edu/',3]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();var addthis_config = {data_ga_social: true, data_ga_property: {"addthis_default":false}};</script>
+<script src="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/js/js_9m3mIv4PpdsIiqdWTHIAmEHOdQCO84XCnjPG3WOa1lI.js?m=1678950555"></script>
+<script>(function ($) { angular.module('openscholar', ['SiteCreationForm']); })();</script>
+<script src="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/js/js_-kTpqHN97mqO-XWl0FI9xTBL2ydac9GGZb9MOdN47HA.js?m=1678950047"></script>
+<script src="https://suo.seas.harvard.edu/sites/scholar.harvard.edu/files/js/js_qluyoBMkmyevXrrhnKB_2ie6cLJ7DL5g_0nHm6hyXwA.js?m=1678949984"></script>
+<script src="https://suo.seas.harvard.edu/profiles/openscholar/themes/hwpi_onepage/flavors/winthrop/winthrop.js?rsowaf"></script>
+</body>
+</html>
