@@ -1,6 +1,15 @@
+import sys
+
+from absl import flags
 from bs4 import BeautifulSoup
+import pandas as pd
 import requests
 
+
+flags.DEFINE_boolean('save_pdf', False, 'Save PDF?')
+
+
+flags.FLAGS(sys.argv)
 
 URL = 'https://suo.seas.harvard.edu/suo-publications'
 page = requests.get(URL)
@@ -27,11 +36,12 @@ for year in years:
 
         inner = article.find_all('div', class_='node-content')[0].decode_contents()
         journal = inner.split('span')[-3].strip('><."” ')
-        print(id, authors)
 
-        pdf = requests.get(url)
-        with open(f'{id.zfill(3)}.pdf', 'wb') as f:
-            f.write(pdf.content)
+        id = id.zfill(3)
+        if flags.FLAGS.save_pdf:
+            pdf = requests.get(url)
+            with open(f'{id.zfill(3)}.pdf', 'wb') as f:
+                f.write(pdf.content)
         
         papers.append(dict(
             id=id,
@@ -40,3 +50,11 @@ for year in years:
             url=url,
             journal=journal,
         ))
+
+
+df = pd.DataFrame.from_records(papers)
+df = df.sort_values(by='id')
+
+for _, row in df.iterrows():
+    print(f'\\addcontentsline{{toc}}{{section}}{{{row.authors}. "{row.title}". {row.journal}.}}')
+    print(f'\\includepdf[pages=-]{{papers/{row.id}.pdf}}')
