@@ -60,10 +60,10 @@ df = df.iloc[::-1]
 
 year = None
 for _, row in df.iterrows():
+    if '.' in year:
+        year = year.strip().split('.')[0]
     if year != row.year:
         year = row.year
-        if '.' in year:
-            year = year.strip().split('.')[0]
         with open(f'{year}.tex', 'a') as f:
             f.write(f'\part{{{year}}}\n')
     print(f'{year}: {row.id}')
