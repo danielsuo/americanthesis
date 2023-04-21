@@ -60,8 +60,8 @@ df = df.iloc[::-1]
 
 year = None
 for _, row in df.iterrows():
-    if '.' in year:
-        year = year.strip().split('.')[0]
+    if '.' in row.year:
+        row.year = row.year.strip().split('.')[0]
     if year != row.year:
         year = row.year
         with open(f'{year}.tex', 'a') as f:
